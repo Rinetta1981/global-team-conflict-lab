@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "project": "global-team-conflict-lab",
+  "family_id": "GTCL_001",
+  "domain": "deadline_coordination",
+  "role_relation": "peer",
+  "speaker_role": "project_coordinator",
+  "addressee_role": "project_coordinator",
+  "invariant_facts": {
+    "context": "Two project coordinators are jointly preparing a client presentation and had agreed on a review cutoff for changes to the slide deck.",
+    "conflict_trigger": "The addressee changed the slide deck after the agreed review cutoff without informing the speaker.",
+    "source_of_disagreement": "The late uncommunicated changes caused the speaker to redo work that had already been completed.",
+    "organizational_consequence": "The duplicated work increased coordination costs before the next project deadline."
+  },
+  "evaluation_question": "Assess conflict severity, aggression, cooperativeness, attribution of responsibility, appropriate conflict-management strategy, escalation level, and a suitable managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "You changed the slide deck after our review cutoff without telling me. That made me redo work I had already finished. We need to agree how we communicate late changes before the next deadline."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "You revised the slide deck after the agreed review cutoff without notifying me. This resulted in duplicated work on my side. We need to establish a process for communicating late-stage changes before the next deadline."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to flag that you changed the slide deck after our review cutoff without telling me, which meant I had to redo work I had already finished. Could we agree on how to communicate late changes before the next deadline?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to raise that you revised the slide deck after the agreed review cutoff without notifying me, which resulted in duplicated work on my side. Could we establish a process for communicating late-stage changes before the next deadline?"
+    }
+  }
+}
