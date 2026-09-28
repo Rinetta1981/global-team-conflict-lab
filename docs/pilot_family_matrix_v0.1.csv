@@ -1,0 +1,11 @@
+family_id,domain,role_relation,speaker_role,addressee_role,core_conflict
+GTCL_001,deadline_coordination,peer,project_coordinator,project_coordinator,Changes were made after an agreed review cutoff without notification
+GTCL_002,credit_attribution,peer,researcher,researcher,A contribution was omitted from attribution in a shared presentation
+GTCL_003,task_ownership,peer,project_specialist,project_specialist,Two colleagues each understood the other to own the same unfinished task
+GTCL_004,meeting_participation,peer,team_member,team_member,One colleague repeatedly spoke before the other had completed a point
+GTCL_005,workload_allocation,upward,analyst,manager,Additional work was assigned after the employee had reported full capacity
+GTCL_006,decision_transparency,upward,project_specialist,manager,A manager changed an agreed project approach without explaining the change
+GTCL_007,deadline_feasibility,upward,coordinator,manager,A new deadline conflicts with previously assigned commitments
+GTCL_008,missed_handoff,downward,team_lead,team_member,A team member missed an agreed project handoff
+GTCL_009,process_compliance,downward,manager,analyst,A team member bypassed an agreed review step
+GTCL_010,resource_allocation,downward,project_lead,team_member,A team member disputes the allocation of limited project resources
