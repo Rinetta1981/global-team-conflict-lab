@@ -1,0 +1,10 @@
+{
+  "execution_design_version": "0.2",
+  "row_count": 240,
+  "observations_per_system": 120,
+  "queue_csv_sha256": "c1c23f9c6510065152b314c39e8bcf1b1825f3049dc87ea42e2168de44ec8fa8",
+  "system_set_sha256": "37866dd9d2e9c2e2018c55f72f1a65a32b969d2f4f694137311a0710d2b260ec",
+  "execution_plan_csv_sha256": "acb66cd6a3c2a7d48f37993ad220a63860c9d5d47fbca9dc8a46bd78106a36d2",
+  "execution_plan_csv": "global-team-conflict-lab/configs/zero_cost_execution_plan_v0.2.csv",
+  "cost_constraint": "EUR 0 additional project spend"
+}
