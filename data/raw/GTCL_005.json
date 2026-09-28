@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "project": "global-team-conflict-lab",
+  "family_id": "GTCL_005",
+  "domain": "workload_allocation",
+  "role_relation": "upward",
+  "speaker_role": "analyst",
+  "addressee_role": "manager",
+  "invariant_facts": {
+    "context": "An analyst has already told the manager that their current assignments fill their available capacity for the week.",
+    "conflict_trigger": "The manager assigns an additional task due within the same week.",
+    "source_of_disagreement": "The analyst disputes the additional allocation because the previously reported capacity constraint remains unchanged.",
+    "organizational_consequence": "The analyst must either reprioritize existing work or accept a workload beyond the stated capacity."
+  },
+  "evaluation_question": "Assess conflict severity, aggression, cooperativeness, attribution of responsibility, appropriate conflict-management strategy, escalation level, and a suitable managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "I already told you that my current assignments fill my capacity this week. This additional task does not fit without changing priorities. We need to decide what should move."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "I previously reported that my current assignments use my available capacity for this week. This additional assignment cannot be accommodated without reprioritization. We need to determine which existing priority should change."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to flag that I had already said my current assignments fill my capacity this week. This additional task does not fit unless we change priorities. Could we decide what should move?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to raise that I previously reported my current assignments use my available capacity for this week. This additional assignment cannot be accommodated without reprioritization. Could we determine which existing priority should change?"
+    }
+  }
+}

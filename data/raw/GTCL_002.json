@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "project": "global-team-conflict-lab",
+  "family_id": "GTCL_002",
+  "domain": "credit_attribution",
+  "role_relation": "peer",
+  "speaker_role": "researcher",
+  "addressee_role": "researcher",
+  "invariant_facts": {
+    "context": "Two researchers jointly prepared a presentation, and one researcher contributed the analysis used in three slides.",
+    "conflict_trigger": "The final presentation credits the other researcher for the presentation but does not mention the speaker's analytical contribution.",
+    "source_of_disagreement": "The speaker believes their contribution should be acknowledged in the presentation materials.",
+    "organizational_consequence": "The omission may affect how contribution to the joint work is recognized."
+  },
+  "evaluation_question": "Assess conflict severity, aggression, cooperativeness, attribution of responsibility, appropriate conflict-management strategy, escalation level, and a suitable managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "I contributed the analysis used in three of these slides, but my contribution is not credited. Please add my contribution to the presentation materials."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "I contributed the analysis used in three of these slides, but that contribution is not acknowledged in the presentation materials. Please add the appropriate attribution."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I noticed that the analysis I contributed to three of these slides is not credited. Could you please add my contribution to the presentation materials?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I noticed that the analysis I contributed to three of these slides is not acknowledged in the presentation materials. Could you please add the appropriate attribution?"
+    }
+  }
+}

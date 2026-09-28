@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "project": "global-team-conflict-lab",
+  "family_id": "GTCL_010",
+  "domain": "resource_allocation",
+  "role_relation": "downward",
+  "speaker_role": "project_lead",
+  "addressee_role": "team_member",
+  "invariant_facts": {
+    "context": "A project lead has two available software licenses and three team members who requested them for the same project period.",
+    "conflict_trigger": "The lead allocates the two licenses based on immediate project tasks, and one team member disputes the allocation.",
+    "source_of_disagreement": "The disagreement concerns the basis used to allocate a limited resource among three requests.",
+    "organizational_consequence": "The team must continue the project with only two licenses available during the period."
+  },
+  "evaluation_question": "Assess conflict severity, aggression, cooperativeness, attribution of responsibility, appropriate conflict-management strategy, escalation level, and a suitable managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "We have two licenses for three requests, and I allocated them based on the immediate project tasks. You disagree with that allocation. Please explain what alternative basis you think we should use."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "We have two licenses available for three requests, and I allocated them according to immediate project requirements. You disagree with that allocation. Please explain what alternative allocation criterion you propose."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to discuss the allocation. We have two licenses for three requests, and I allocated them based on the immediate project tasks. You disagree with that allocation. Could you explain what alternative basis you think we should use?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to discuss the allocation. We have two licenses available for three requests, and I allocated them according to immediate project requirements. You disagree with that allocation. Could you please explain what alternative allocation criterion you propose?"
+    }
+  }
+}

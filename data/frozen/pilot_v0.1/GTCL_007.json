@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "project": "global-team-conflict-lab",
+  "family_id": "GTCL_007",
+  "domain": "deadline_feasibility",
+  "role_relation": "upward",
+  "speaker_role": "coordinator",
+  "addressee_role": "manager",
+  "invariant_facts": {
+    "context": "A coordinator is already responsible for two deliverables due on Thursday when the manager assigns another substantial deliverable for the same day.",
+    "conflict_trigger": "The coordinator tells the manager that the new deadline conflicts with existing commitments.",
+    "source_of_disagreement": "The disagreement concerns whether all three substantial deliverables can reasonably be completed by Thursday.",
+    "organizational_consequence": "Without reprioritization, at least one of the scheduled deliverables may not be completed by the deadline."
+  },
+  "evaluation_question": "Assess conflict severity, aggression, cooperativeness, attribution of responsibility, appropriate conflict-management strategy, escalation level, and a suitable managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "I already have two substantial deliverables due Thursday, and this adds a third. I cannot complete all three by Thursday. We need to change a deadline or priority."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "I already have two substantial deliverables scheduled for Thursday, and this assignment creates a third concurrent deadline. Completing all three by Thursday is not feasible. We need to revise a deadline or priority."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to flag that I already have two substantial deliverables due Thursday, and this adds a third. I cannot complete all three by Thursday. Could we change a deadline or priority?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to raise that I already have two substantial deliverables scheduled for Thursday, and this assignment creates a third concurrent deadline. Completing all three by Thursday is not feasible. Could we revise a deadline or priority?"
+    }
+  }
+}

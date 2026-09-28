@@ -1,0 +1,55 @@
+{
+  "freeze_version": "v0.1",
+  "project": "global-team-conflict-lab",
+  "prefix": "GTCL",
+  "family_count": 10,
+  "conditions_per_family": 4,
+  "message_count": 40,
+  "source_directory": "global-team-conflict-lab/data/raw",
+  "frozen_directory": "global-team-conflict-lab/data/frozen/pilot_v0.1",
+  "created_utc": "2026-09-28T13:30:37.795039+00:00",
+  "files": [
+    {
+      "file": "GTCL_001.json",
+      "sha256": "fe8d294b459f67170f3fa4a8dd312ad5065f8e4b0719814b3a8bfc3ddb1d045d"
+    },
+    {
+      "file": "GTCL_002.json",
+      "sha256": "34beabcfb0b9e7d539a677aec49e0fcd46b4a1de8c5b2b562e88ab4f6908d1bd"
+    },
+    {
+      "file": "GTCL_003.json",
+      "sha256": "fddf8668cab22083c163e3e7ae80b3fbd0554a0460953edb7f035540c91f592a"
+    },
+    {
+      "file": "GTCL_004.json",
+      "sha256": "69a3c779b4cfe1eacaa9322d747d6cbd41f2071a61cb3a80bd5f446390a64c31"
+    },
+    {
+      "file": "GTCL_005.json",
+      "sha256": "1bc2b7cb24d865c7d14b028152e23b1f28876071aa62aa022541f68136094db5"
+    },
+    {
+      "file": "GTCL_006.json",
+      "sha256": "4646d45a89e67506acd11f138454acc85ccbae7f6df6b6ae29193d1ca2053e28"
+    },
+    {
+      "file": "GTCL_007.json",
+      "sha256": "5e37f53a4c5d6ca98efc905920d611c4fbfb881459135fa9854bdd12632269e3"
+    },
+    {
+      "file": "GTCL_008.json",
+      "sha256": "2a4e6c758fa720ad9657c6f8ffe87df0b89780351df7374e4250df8e9db1c0ce"
+    },
+    {
+      "file": "GTCL_009.json",
+      "sha256": "43301b2bbf70647b0c70b4ad8ddeb9cb8725f82d7eead97080f996922f5b7297"
+    },
+    {
+      "file": "GTCL_010.json",
+      "sha256": "31e4fbb23cab0124d981e59193aaaf862373f801b74c995b695be254b3bc8970"
+    }
+  ],
+  "dataset_sha256": "4bb7351dd062b548bcfb45faa7cdad7bd742ebecb5de3a4c92857c15d67e64bc",
+  "immutability_note": "This directory is a frozen research artifact. Do not modify files in place; create a new dataset version instead."
+}

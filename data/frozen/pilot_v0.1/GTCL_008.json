@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "project": "global-team-conflict-lab",
+  "family_id": "GTCL_008",
+  "domain": "missed_handoff",
+  "role_relation": "downward",
+  "speaker_role": "team_lead",
+  "addressee_role": "team_member",
+  "invariant_facts": {
+    "context": "A team lead and team member agreed that a completed dataset would be handed off by Monday morning for the next stage of analysis.",
+    "conflict_trigger": "The Monday morning handoff was missed and the dataset has not yet been delivered.",
+    "source_of_disagreement": "The team lead raises the missed handoff and asks when the dataset will be provided.",
+    "organizational_consequence": "The next stage of analysis cannot begin until the dataset is delivered."
+  },
+  "evaluation_question": "Assess conflict severity, aggression, cooperativeness, attribution of responsibility, appropriate conflict-management strategy, escalation level, and a suitable managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "The dataset was due Monday morning and has not been delivered. Please tell me when you will provide it so the analysis can begin."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "The dataset was scheduled for handoff Monday morning and has not been delivered. Please confirm when it will be provided so the next analysis stage can begin."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to check on the dataset that was due Monday morning because it has not arrived yet. Could you please let me know when you will provide it so the analysis can begin?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to follow up on the dataset scheduled for handoff Monday morning because it has not yet been delivered. Could you please confirm when it will be provided so the next analysis stage can begin?"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "project": "global-team-conflict-lab",
+  "family_id": "GTCL_003",
+  "domain": "task_ownership",
+  "role_relation": "peer",
+  "speaker_role": "project_specialist",
+  "addressee_role": "project_specialist",
+  "invariant_facts": {
+    "context": "Two project specialists are working on a shared implementation plan, and the testing checklist remains unfinished.",
+    "conflict_trigger": "Each specialist understood that the other person was responsible for completing the testing checklist.",
+    "source_of_disagreement": "The disagreement concerns who was expected to own the unfinished testing task.",
+    "organizational_consequence": "The checklist must be completed before implementation can proceed."
+  },
+  "evaluation_question": "Assess conflict severity, aggression, cooperativeness, attribution of responsibility, appropriate conflict-management strategy, escalation level, and a suitable managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "The testing checklist is still unfinished. I understood that you were responsible for it, and you understood that I was. We need to agree who will complete it."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "The testing checklist remains incomplete. I understood that responsibility for it sat with you, while you understood that it sat with me. We need to establish ownership for completion."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "It looks like we had different understandings about the testing checklist. I thought you were responsible for it, and you thought I was. Could we agree who will complete it?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "It appears that we had different understandings regarding responsibility for the testing checklist. I understood that it sat with you, while you understood that it sat with me. Could we establish ownership for completion?"
+    }
+  }
+}

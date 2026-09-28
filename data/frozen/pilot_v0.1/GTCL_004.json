@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "project": "global-team-conflict-lab",
+  "family_id": "GTCL_004",
+  "domain": "meeting_participation",
+  "role_relation": "peer",
+  "speaker_role": "team_member",
+  "addressee_role": "team_member",
+  "invariant_facts": {
+    "context": "Two team members are discussing a project issue in a meeting, and one person has repeatedly begun speaking before the other has finished making a point.",
+    "conflict_trigger": "The speaker raises the repeated interruptions with the colleague during the meeting.",
+    "source_of_disagreement": "The disagreement concerns turn-taking and the speaker's ability to complete their contributions.",
+    "organizational_consequence": "Continued interruptions may reduce effective participation in the discussion."
+  },
+  "evaluation_question": "Assess conflict severity, aggression, cooperativeness, attribution of responsibility, appropriate conflict-management strategy, escalation level, and a suitable managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "You have interrupted me several times before I finished my point. Please let me finish before you respond."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "You have spoken over me several times before I completed my point. Please allow me to complete my contribution before responding."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to mention that you have interrupted me several times before I finished my point. Could you please let me finish before you respond?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to raise that you have spoken over me several times before I completed my point. Could you please allow me to complete my contribution before responding?"
+    }
+  }
+}

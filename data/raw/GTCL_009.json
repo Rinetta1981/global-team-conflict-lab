@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "project": "global-team-conflict-lab",
+  "family_id": "GTCL_009",
+  "domain": "process_compliance",
+  "role_relation": "downward",
+  "speaker_role": "manager",
+  "addressee_role": "analyst",
+  "invariant_facts": {
+    "context": "A manager and analyst had agreed that client-facing figures would be reviewed internally before being sent outside the team.",
+    "conflict_trigger": "The analyst sent a set of client-facing figures before completing the agreed internal review step.",
+    "source_of_disagreement": "The manager raises the skipped review step and asks that the agreed process be followed for future client-facing figures.",
+    "organizational_consequence": "Bypassing the review step increases the risk that unreviewed figures are sent externally."
+  },
+  "evaluation_question": "Assess conflict severity, aggression, cooperativeness, attribution of responsibility, appropriate conflict-management strategy, escalation level, and a suitable managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "You sent the client-facing figures before the agreed internal review. Please follow the review step before sending figures outside the team."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "You sent the client-facing figures before completion of the agreed internal review. Please follow the established review process before external distribution."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to raise that you sent the client-facing figures before the agreed internal review. Could you please follow the review step before sending figures outside the team?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to raise that you sent the client-facing figures before completion of the agreed internal review. Could you please follow the established review process before external distribution?"
+    }
+  }
+}

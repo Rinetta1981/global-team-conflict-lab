@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1",
+  "project": "global-team-conflict-lab",
+  "family_id": "GTCL_006",
+  "domain": "decision_transparency",
+  "role_relation": "upward",
+  "speaker_role": "project_specialist",
+  "addressee_role": "manager",
+  "invariant_facts": {
+    "context": "A project specialist and manager had agreed to use one implementation approach in a planning meeting.",
+    "conflict_trigger": "The manager later changes the implementation approach without explaining the reason for the change.",
+    "source_of_disagreement": "The specialist wants an explanation for why the previously agreed approach was replaced.",
+    "organizational_consequence": "The unexplained change affects how the specialist prepares the next stage of work."
+  },
+  "evaluation_question": "Assess conflict severity, aggression, cooperativeness, attribution of responsibility, appropriate conflict-management strategy, escalation level, and a suitable managerial response.",
+  "conditions": {
+    "DC": {
+      "directness": "direct",
+      "register": "conversational",
+      "message": "We agreed on the original implementation approach, and it has now been changed without an explanation. Please explain why the approach changed."
+    },
+    "DI": {
+      "directness": "direct",
+      "register": "institutional",
+      "message": "We previously agreed on the original implementation approach, which has now been replaced without an explanation. Please provide the rationale for the change."
+    },
+    "MC": {
+      "directness": "mitigated",
+      "register": "conversational",
+      "message": "I wanted to ask about the implementation approach we agreed on, which has now been changed without an explanation. Could you please explain why it changed?"
+    },
+    "MI": {
+      "directness": "mitigated",
+      "register": "institutional",
+      "message": "I wanted to ask about the implementation approach we previously agreed on, which has now been replaced without an explanation. Could you please provide the rationale for the change?"
+    }
+  }
+}
