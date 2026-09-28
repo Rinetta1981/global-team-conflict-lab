@@ -1,0 +1,12 @@
+{
+  "queue_version": "0.1",
+  "seed": 20260928,
+  "replicates": 3,
+  "family_count": 10,
+  "conditions_per_family": 4,
+  "row_count": 120,
+  "frozen_dataset_sha256": "4bb7351dd062b548bcfb45faa7cdad7bd742ebecb5de3a4c92857c15d67e64bc",
+  "prompt_template_sha256": "5d8206b4a35dfea09f6f3373db1924e9ee561b2b75e85a7bce606deada50b5cb",
+  "queue_csv_sha256": "c1c23f9c6510065152b314c39e8bcf1b1825f3049dc87ea42e2168de44ec8fa8",
+  "queue_csv": "global-team-conflict-lab/configs/evaluation_queue_v0.1.csv"
+}

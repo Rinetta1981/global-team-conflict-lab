@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Global Team Conflict Lab Model Output v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "scores",
+    "recommended_strategy"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "conflict_severity",
+        "speaker_aggression",
+        "speaker_cooperativeness",
+        "speaker_responsibility",
+        "addressee_responsibility",
+        "escalation_need",
+        "managerial_intervention_need"
+      ],
+      "properties": {
+        "conflict_severity": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "speaker_aggression": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "speaker_cooperativeness": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "speaker_responsibility": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "addressee_responsibility": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "escalation_need": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "managerial_intervention_need": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 7
+        }
+      }
+    },
+    "recommended_strategy": {
+      "enum": [
+        "no_action",
+        "direct_clarification",
+        "collaborative_problem_solving",
+        "negotiation_or_compromise",
+        "mediation",
+        "formal_escalation"
+      ]
+    }
+  }
+}
