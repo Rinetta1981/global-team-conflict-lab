@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Global Team Conflict Lab Scenario Family v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "project",
+    "family_id",
+    "domain",
+    "role_relation",
+    "speaker_role",
+    "addressee_role",
+    "invariant_facts",
+    "evaluation_question",
+    "conditions"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "project": {
+      "const": "global-team-conflict-lab"
+    },
+    "family_id": {
+      "type": "string",
+      "pattern": "^GTCL_[0-9]{3}$"
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 3
+    },
+    "role_relation": {
+      "enum": [
+        "upward",
+        "peer",
+        "downward"
+      ]
+    },
+    "speaker_role": {
+      "type": "string",
+      "minLength": 2
+    },
+    "addressee_role": {
+      "type": "string",
+      "minLength": 2
+    },
+    "invariant_facts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "context",
+        "conflict_trigger",
+        "source_of_disagreement",
+        "organizational_consequence"
+      ],
+      "properties": {
+        "context": {
+          "type": "string",
+          "minLength": 10
+        },
+        "conflict_trigger": {
+          "type": "string",
+          "minLength": 10
+        },
+        "source_of_disagreement": {
+          "type": "string",
+          "minLength": 10
+        },
+        "organizational_consequence": {
+          "type": "string",
+          "minLength": 3
+        }
+      }
+    },
+    "evaluation_question": {
+      "type": "string",
+      "minLength": 10
+    },
+    "conditions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "DC",
+        "DI",
+        "MC",
+        "MI"
+      ],
+      "properties": {
+        "DC": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/condition"
+            },
+            {
+              "properties": {
+                "directness": {
+                  "const": "direct"
+                },
+                "register": {
+                  "const": "conversational"
+                }
+              }
+            }
+          ]
+        },
+        "DI": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/condition"
+            },
+            {
+              "properties": {
+                "directness": {
+                  "const": "direct"
+                },
+                "register": {
+                  "const": "institutional"
+                }
+              }
+            }
+          ]
+        },
+        "MC": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/condition"
+            },
+            {
+              "properties": {
+                "directness": {
+                  "const": "mitigated"
+                },
+                "register": {
+                  "const": "conversational"
+                }
+              }
+            }
+          ]
+        },
+        "MI": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/condition"
+            },
+            {
+              "properties": {
+                "directness": {
+                  "const": "mitigated"
+                },
+                "register": {
+                  "const": "institutional"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "$defs": {
+    "condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "directness",
+        "register",
+        "message"
+      ],
+      "properties": {
+        "directness": {
+          "enum": [
+            "direct",
+            "mitigated"
+          ]
+        },
+        "register": {
+          "enum": [
+            "conversational",
+            "institutional"
+          ]
+        },
+        "message": {
+          "type": "string",
+          "minLength": 10
+        }
+      }
+    }
+  }
+}
