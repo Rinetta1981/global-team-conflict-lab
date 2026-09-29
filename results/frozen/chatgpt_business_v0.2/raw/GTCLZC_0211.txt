@@ -1,0 +1,10 @@
+{
+  "conflict_severity": 2,
+  "speaker_aggression": 1,
+  "speaker_cooperativeness": 7,
+  "speaker_responsibility": 1,
+  "addressee_responsibility": 5,
+  "escalation_need": 1,
+  "managerial_intervention_need": 1,
+  "recommended_strategy": "direct_clarification"
+}
