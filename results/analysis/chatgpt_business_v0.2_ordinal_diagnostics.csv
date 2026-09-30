@@ -1,0 +1,10 @@
+"project","outcome","status","fit_warnings","summary_warnings"
+"GTCL","addressee_responsibility","fit_clean","",""
+"GTCL","conflict_severity","fit_clean","",""
+"GTCL","escalation_need","fit_with_warning","(1) Hessian is numerically singular: parameters are not uniquely determined 
+In addition: Absolute convergence criterion was met, but relative criterion was not met","Variance-covariance matrix of the parameters is not defined"
+"GTCL","managerial_intervention_need","fit_clean","",""
+"GTCL","speaker_aggression","fit_with_warning","(1) Hessian is numerically singular: parameters are not uniquely determined 
+In addition: Absolute convergence criterion was met, but relative criterion was not met","Variance-covariance matrix of the parameters is not defined"
+"GTCL","speaker_cooperativeness","fit_clean","",""
+"GTCL","speaker_responsibility","fit_clean","",""

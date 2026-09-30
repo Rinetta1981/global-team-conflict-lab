@@ -1,0 +1,22 @@
+"project","system_id","model","reasoning","outcome","term","coefficient","std_error","z_value","p_value","n","n_families","n_levels_observed"
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","addressee_responsibility","directness",1.33081586617573,0.932366425203454,1.42735284133095,0.153478216639041,120,10,4
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","addressee_responsibility","register",-0.354955519611685,0.845328357219452,-0.419902534417802,0.674556656231818,120,10,4
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","addressee_responsibility","interaction",0.144448471612613,1.23277170827426,0.117173739990207,0.906722376001522,120,10,4
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","conflict_severity","directness",1.65177288261189,1.14086220543827,1.44782855873234,0.147665003599205,120,10,3
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","conflict_severity","register",-1.94900987109692,1.08742960337339,-1.79230900561357,0.0730834815237879,120,10,3
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","conflict_severity","interaction",1.94897305867579,1.49443696857047,1.30415206506844,0.192181739886604,120,10,3
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","escalation_need","directness",-0.33715800739935,NA,NA,NA,120,10,2
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","escalation_need","register",-0.337157894677743,NA,NA,NA,120,10,2
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","escalation_need","interaction",20.498441795368,NA,NA,NA,120,10,2
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","managerial_intervention_need","directness",0.720781541937971,1.15887812655243,0.62196492057559,0.533964934763772,120,10,4
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","managerial_intervention_need","register",0.569291279536301,1.1598674391933,0.490824434154519,0.623550626716751,120,10,4
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","managerial_intervention_need","interaction",0.183456041865398,1.49689849146462,0.122557436533922,0.90245756099355,120,10,4
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","speaker_aggression","directness",23.3639290171669,NA,NA,NA,120,10,2
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","speaker_aggression","register",-0.524725266928832,NA,NA,NA,120,10,2
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","speaker_aggression","interaction",-1.66985600329414,NA,NA,NA,120,10,2
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","speaker_cooperativeness","directness",-6.15667851416747,1.79294542262235,-3.43383487109314,0.000595106613158119,120,10,2
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","speaker_cooperativeness","register",0.695853424053781,0.850563973920628,0.81810827332162,0.413295365160136,120,10,2
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","speaker_cooperativeness","interaction",-1.63536444163496,1.67346085851294,-0.977234951935575,0.328452848032552,120,10,2
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","speaker_responsibility","directness",3.2049839572262,2.6594506725157,1.20513006326771,0.228153095682996,120,10,3
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","speaker_responsibility","register",-1.08519069323568e-06,2.93406970808068,-3.69858524576621e-07,0.999999704895594,120,10,3
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","speaker_responsibility","interaction",1.47842750249131e-06,3.17537114808322,4.65592031150042e-07,0.999999628511307,120,10,3
