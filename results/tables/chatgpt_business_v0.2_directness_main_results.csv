@@ -1,0 +1,8 @@
+"project","system_id","model","reasoning","outcome","analysis_family","n_families","mean_contrast","median_contrast","bootstrap_ci_low_95","bootstrap_ci_high_95","exact_signflip_p","adjusted_p","adjustment","reject_adjusted_0_05"
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","speaker_responsibility","confirmatory",10,0.0666666666666666,0,0,0.15,0.25,1,"Holm (9 confirmatory tests)","False"
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","escalation_need","confirmatory",10,0.0166666666666667,0,0,0.05,1,1,"Holm (9 confirmatory tests)","False"
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","managerial_intervention_need","confirmatory",10,0.0666666666666666,0,-0.0166666666666667,0.15,0.3125,1,"Holm (9 confirmatory tests)","False"
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","conflict_severity","secondary",10,0.166666666666667,0.166666666666667,0.0666666666666667,0.266666666666667,0.03125,0.09375,"BH-FDR (secondary family)","False"
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","speaker_aggression","secondary",10,0.4,0.416666666666667,0.183333333333333,0.616666666666667,0.015625,0.09375,"BH-FDR (secondary family)","False"
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","speaker_cooperativeness","secondary",10,-0.816666666666667,-0.833333333333334,-0.916666666666667,-0.716666666666667,0.001953125,0.0234375,"BH-FDR (secondary family)","True"
+"GTCL","chatgpt_business_ui","GPT-5.6 Sol","Medium","addressee_responsibility","secondary",10,0.133333333333333,0.166666666666666,0.0666666666666664,0.216666666666666,0.03125,0.09375,"BH-FDR (secondary family)","False"
