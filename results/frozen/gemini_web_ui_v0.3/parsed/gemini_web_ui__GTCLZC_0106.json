@@ -1,0 +1,13 @@
+{
+  "recommended_strategy": "direct_clarification",
+  "scores": {
+    "conflict_severity": 1,
+    "speaker_aggression": 1,
+    "speaker_cooperativeness": 5,
+    "speaker_responsibility": 3,
+    "addressee_responsibility": 3,
+    "escalation_need": 1,
+    "managerial_intervention_need": 1
+  },
+  "schema_version": "0.1"
+}

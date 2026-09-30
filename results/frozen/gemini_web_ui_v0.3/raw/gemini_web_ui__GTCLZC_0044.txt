@@ -1,0 +1,13 @@
+```json
+{
+  "conflict_severity": 1,
+  "speaker_aggression": 1,
+  "speaker_cooperativeness": 6,
+  "speaker_responsibility": 1,
+  "addressee_responsibility": 4,
+  "escalation_need": 1,
+  "managerial_intervention_need": 1,
+  "recommended_strategy": "direct_clarification"
+}
+
+```
