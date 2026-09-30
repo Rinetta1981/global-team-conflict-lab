@@ -1,0 +1,16 @@
+"project","system_id","model","reasoning","outcome","term","coefficient","std_error","z_value","p_value","n","n_families","n_levels_observed"
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","addressee_responsibility","directness",-0.20511353512834,0.578950316937804,-0.35428521088516,0.723125149929303,120,10,4
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","addressee_responsibility","register",-0.400348936742023,0.578468901644627,-0.692083767344802,0.488884725056098,120,10,4
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","addressee_responsibility","interaction",0.41025448717462,0.801974444215965,0.51155556156867,0.608962093241159,120,10,4
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","conflict_severity","directness",1.89402989014581,1.05512900390127,1.79506949685087,0.072642627982752,120,10,2
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","conflict_severity","register",0.453125900670477,0.958306504097364,0.472840264292351,0.636327145450346,120,10,2
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","conflict_severity","interaction",-0.938079567792996,1.38420076179354,-0.677704848664805,0.497958851541074,120,10,2
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","speaker_aggression","directness",20.1031393563872,377.13962489576,0.0533042354325502,0.957489505614336,120,10,2
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","speaker_aggression","register",-0.0011089557139654,491.443934946076,-2.25652538389161e-06,0.999998199553235,120,10,2
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","speaker_aggression","interaction",-22.5936068583439,873.456056843323,-0.0258669073061299,0.979363495353904,120,10,2
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","speaker_cooperativeness","directness",-2.99573177402195,NA,NA,NA,120,10,2
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","speaker_cooperativeness","register",0.810930864567518,NA,NA,NA,120,10,2
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","speaker_cooperativeness","interaction",-2.56878973228152,NA,NA,NA,120,10,2
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","speaker_responsibility","directness",-0.120773643502125,0.992032029334684,-0.121743693682071,0.903102008035095,120,10,3
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","speaker_responsibility","register",-1.28049426650291,1.1568946390664,-1.1068374104804,0.268364230515234,120,10,3
+"GTCL","gemini_web_ui","3.6 Flash","web_ui_selected_model","speaker_responsibility","interaction",0.860399487586779,1.52583839795147,0.563886377968935,0.572831461224509,120,10,3

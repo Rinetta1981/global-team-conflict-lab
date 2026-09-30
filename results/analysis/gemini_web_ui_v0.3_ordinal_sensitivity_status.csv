@@ -1,0 +1,9 @@
+"project","outcome","status","n","n_levels_observed","warning"
+"GTCL","addressee_responsibility","fit_ok",120,4,""
+"GTCL","conflict_severity","fit_ok",120,2,""
+"GTCL","escalation_need","fit_error",120,1,"length of start is 5 should equal 3"
+"GTCL","managerial_intervention_need","fit_error",120,1,"length of start is 5 should equal 3"
+"GTCL","speaker_aggression","fit_ok",120,2,"(1) Hessian is numerically singular: parameters are not uniquely determined 
+In addition: Absolute convergence criterion was met, but relative criterion was not met"
+"GTCL","speaker_cooperativeness","fit_ok",120,2,""
+"GTCL","speaker_responsibility","fit_ok",120,3,""

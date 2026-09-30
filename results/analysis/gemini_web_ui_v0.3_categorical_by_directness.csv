@@ -1,0 +1,5 @@
+project,directness,category,count,proportion
+GTCL,direct,collaborative_problem_solving,21,0.35
+GTCL,direct,direct_clarification,39,0.65
+GTCL,mitigated,collaborative_problem_solving,22,0.36666666666666664
+GTCL,mitigated,direct_clarification,38,0.6333333333333333
