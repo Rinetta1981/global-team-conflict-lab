@@ -1,0 +1,8 @@
+project,outcome,chatgpt_status,gemini_status,chatgpt_levels,gemini_levels,chatgpt_warning,gemini_warning
+GTCL,addressee_responsibility,fit_ok,fit_ok,4,4,,
+GTCL,conflict_severity,fit_ok,fit_ok,3,2,,
+GTCL,escalation_need,fit_ok,fit_error,2,1,"(1) Hessian is numerically singular: parameters are not uniquely determined In addition: Absolute convergence criterion was met, but relative criterion was not met",length of start is 5 should equal 3
+GTCL,managerial_intervention_need,fit_ok,fit_error,4,1,,length of start is 5 should equal 3
+GTCL,speaker_aggression,fit_ok,fit_ok,2,2,"(1) Hessian is numerically singular: parameters are not uniquely determined In addition: Absolute convergence criterion was met, but relative criterion was not met","(1) Hessian is numerically singular: parameters are not uniquely determined In addition: Absolute convergence criterion was met, but relative criterion was not met"
+GTCL,speaker_cooperativeness,fit_ok,fit_ok,2,2,,
+GTCL,speaker_responsibility,fit_ok,fit_ok,3,3,,

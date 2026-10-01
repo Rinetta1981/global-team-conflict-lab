@@ -1,0 +1,5 @@
+project,register,category,chatgpt_count,gemini_count,chatgpt_proportion,gemini_proportion,gemini_minus_chatgpt_proportion
+GTCL,conversational,collaborative_problem_solving,29,19,0.48333333333333334,0.31666666666666665,-0.16666666666666669
+GTCL,conversational,direct_clarification,31,41,0.5166666666666667,0.6833333333333333,0.16666666666666663
+GTCL,institutional,collaborative_problem_solving,28,24,0.4666666666666667,0.4,-0.06666666666666665
+GTCL,institutional,direct_clarification,32,36,0.5333333333333333,0.6,0.06666666666666665

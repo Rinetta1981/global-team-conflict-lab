@@ -1,0 +1,22 @@
+project,outcome,contrast,n_families,pearson_r
+GTCL,addressee_responsibility,directness,10,0.563
+GTCL,addressee_responsibility,register,10,-0.644
+GTCL,addressee_responsibility,interaction,10,-0.225
+GTCL,conflict_severity,directness,10,0.156
+GTCL,conflict_severity,register,10,-0.373
+GTCL,conflict_severity,interaction,10,-0.523
+GTCL,escalation_need,directness,10,NA (constant vector)
+GTCL,escalation_need,register,10,NA (constant vector)
+GTCL,escalation_need,interaction,10,NA (constant vector)
+GTCL,managerial_intervention_need,directness,10,NA (constant vector)
+GTCL,managerial_intervention_need,register,10,NA (constant vector)
+GTCL,managerial_intervention_need,interaction,10,NA (constant vector)
+GTCL,speaker_aggression,directness,10,0.369
+GTCL,speaker_aggression,register,10,0.554
+GTCL,speaker_aggression,interaction,10,0.554
+GTCL,speaker_cooperativeness,directness,10,-0.040
+GTCL,speaker_cooperativeness,register,10,-0.498
+GTCL,speaker_cooperativeness,interaction,10,0.270
+GTCL,speaker_responsibility,directness,10,-0.229
+GTCL,speaker_responsibility,register,10,0.555
+GTCL,speaker_responsibility,interaction,10,-0.497
